@@ -28,7 +28,7 @@ fact "sem ciclos"{
 }
 
 fun inferiores[r:Recurso]:set Recurso{
-    {r1:Recurso | r1.*superior = r}
+    {r1:Recurso | r in r1.^superior}
 }
 
 assert recursoNaoCompartilhado{
