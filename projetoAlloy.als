@@ -16,20 +16,6 @@ one sig Ativo, Inativo extends Status {}
 
 sig Publicacao {}
 
-/*RESTRIÇÕES
-    FEITO - Um usuário pode ter mais de um perfil. Perfis e usuários podem estar ativos ou inativos.
-
-    Conexões de amizade entre os usuários devem ser estabelecidas. O sistema deve ter um histórico das conexões atuais e apagadas.
-
-    Um usuário pode publicar conteúdo de texto em seu perfil ou nos perfis de seus amigos.
-
-    FEITO - um perfil inativo pode ter posts
-
-    FEITO - usuário tem que ter pelo menos um perfil
-
-    FEITO - se um usuário está inativo, podemos considerar todos os seus perfis como inativos também
-*/
-
 fact "Restrições"{
 
     // Um usuário deve ter pelo menos um perfil
